@@ -1,11 +1,30 @@
-@media screen and (max-width: 992px) {
-    .text-red {
-        color: blue;
-    }
+body {
+    background-color: lightblue;
 }
 
-@media screen and (max-width: 600px) {
-    .text-red {
-        color: green;
+h1 {
+    font: size 20px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.konten {
+    height: 5px;
+    border-width: 0;
+    background-color: black;
+}
+
+@media only screen and (max-width: 480px) {
+    /*img {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 75px;
+        left: 40%;
+        transform: translateX(-40%);
     }
+*/
 }
